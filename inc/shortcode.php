@@ -62,7 +62,7 @@ function df_donation_func( $atts ) {
 						'terms_accepted' => $order_data['terms_accepted'],
 						'gdpr_accepted' => $order_data['gdpr_accepted']
 					],
-					"continueurl" => "https://danskfolkeparti.dk/ordregennemfoert",
+					"continueurl" => "https://testdomain.dk/ordregennemfoert",
 					"cancelurl" => $order_data['cancelurl'],
 					"callbackurl" => $order_data['callbackurl'],
 					'language' => 'Danish'
@@ -111,7 +111,7 @@ function df_donation_func( $atts ) {
 	<div class="bu-columns" id="app">
 		<div class="bu-column">
 			<section class="bu-section">
-				<h1 class="bu-title">Giv et bidrag til Dansk Folkeparti</h1>
+				<h1 class="bu-title">Giv et bidrag til os.</h1>
 				<p class="bu-subtitle">
 				Vi er taknemmelige for ethvert bidrag til at styrke vores kamp for at godt og trygt Danmark. Om det er 50,- kr. 100,- kr. eller mere, så er det tilsammen med til, at vi kan stå endnu stærkere, og vi siger tusind tak for din støtte.
 				</p>
@@ -194,7 +194,7 @@ function df_donation_func( $atts ) {
 							<div class="bu-field">
 								<label class="bu-checkbox">
 									<input type="checkbox" v-model="subscibe_to_newsletter">
-									Jeg ønsker at modtage Dansk Folkepartis Nyhedsbrev.
+									Jeg ønsker at modtage vores Nyhedsbrev.
 								</label>
 							</div>
 							<div class="bu-field">

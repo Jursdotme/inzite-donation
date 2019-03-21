@@ -10,9 +10,9 @@ new Vue({
     order_id: '0001',
     amount: '',
     currency: 'DKK',
-    continueurl: 'https://danskfolkeparti.dk/ordregennemfoert',
-    cancelurl: 'https://danskfolkeparti.dk/ordregennemfoert',
-    callbackurl: 'https://danskfolkeparti.dk/ordregennemfoert',
+    continueurl: 'https://testdomain.dk/ordregennemfoert',
+    cancelurl: 'https://testdomain.dk/ordregennemfoert',
+    callbackurl: 'https://testdomain.dk/ordregennemfoert',
     invoice_address: {
       name: '',
       street: '',
