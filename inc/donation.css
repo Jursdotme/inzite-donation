@@ -1,0 +1,21 @@
+
+#app {
+  max-width: 720px;
+  margin: 0 auto;
+  width: 90%;
+}
+#app fieldset {
+  padding: 0 0 3em 0;
+}
+#app .button-group {
+  display: flex;
+  width: 100%;
+  padding-left: 0;
+}
+#app .button-group span {
+  flex: 1;
+  margin-right: .5em;
+}
+#app .button-group span:last-child {
+  margin-right: 0;
+}
